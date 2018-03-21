@@ -38,7 +38,7 @@ def getData():
         'apName':'.1.3.6.1.4.1.2011.10.2.75.4.3.10.1.4',
         'apAssociateStatus': '.1.3.6.1.4.1.2011.10.2.75.2.1.10.1.7'
     }
-    session = netsnmp.Session(Version=2, DestHost='172.31.1.2', Community='h3c_read@ysh@2014')
+    session = netsnmp.Session(Version=2, DestHost='172.31.1.2', Community='xxoo')
     res = []
     for key in oid_dic:
         Varlist = netsnmp.VarList()
