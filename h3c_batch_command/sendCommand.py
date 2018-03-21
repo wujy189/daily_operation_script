@@ -9,7 +9,7 @@ def getSN_JIAJU(device_ip):
         index = foo.expect("Username:")
         foo.sendline('admin')
         foo.expect("Password:")
-        foo.sendline('ysh@hx@2015')
+        foo.sendline('xxoo')
         foo.expect('>')
         foo.sendline('display device manuinfo')
         foo.expect('>')
